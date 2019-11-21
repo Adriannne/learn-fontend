@@ -1,0 +1,24 @@
+p{
+    color:gray;
+    font-size:20px;
+    font-align:right;
+    font-weight:bold; /*加粗*/
+}
+.one{
+    color:green;
+}
+.two{
+    background-color:yellow;
+}
+#id1{
+    background-color:pink;
+}
+
+#outline{
+    border: blue solid thin;
+    outline: #66BAB7 dotted thick;
+    /*outline-color, outline-style, outline-width
+    outline-style: dotted, dashed, solid, double, groove, ridge, inset, outset
+    see: https://www.w3school.com.cn/cssref/pr_outline-style.asp
+    outline-width: thin medium thick 3px 2em*/
+}

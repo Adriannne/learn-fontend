@@ -1,0 +1,31 @@
+#b1{
+    background-color: yellow;
+}
+
+#b2{
+    background-image: url(1.jpg);
+}
+
+#b3{
+    background-image: url(1.jpg);
+    background-repeat: repeat-y;
+}
+
+#b4{
+    background-image: url(1.jpg);
+    background-repeat: repeat-x; /*default: repeat-xy*/
+    background-position: top left; /*center, top, bottom, right, left, 50%*/
+}
+
+#b5{
+    background-image: url(1.jpg);
+    background-repeat: repeat-x;
+    background-position: 100px 50px;
+}
+
+#b6{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}

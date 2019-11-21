@@ -1,0 +1,34 @@
+ul {
+    list-style-type: square; /*disc(default), circle, square, none*/
+    list-style-image: url(1.jpg);
+    list-style-position: inside; /*inside or outside*/
+    /*以上等同于: */
+    list-style: url(1.jpg) square inside;
+}
+
+ul.none{
+    list-style: none;
+}
+
+li {
+    color: blue;
+    list-style-type: circle;
+}
+
+ul.circle{
+    list-style: circle outside;
+}
+
+ol.upper-roman{
+    list-style: upper-roman outside; /*decimal(default), upper-roman, lower-roman, upper-alpha, lower-alpha, none*/
+}
+
+ol.lower-greek{
+    list-style: lower-greek inside; /*there is no upper-greek!*/
+}
+
+/*list-style-type:
+none, disc(default), circle, square, decimal(default), decimal-leading-zero,
+upper/lower--roman, alpha, latin,
+hebrew, armenian, georgian, cjk-ideographic, (希伯来文，亚美尼亚文，格鲁吉亚文，cjk表意文字)
+hiragana, katakana, hiragana-iroha, katakana-irona(平假名，片假名)*/

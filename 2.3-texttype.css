@@ -1,0 +1,58 @@
+div{
+    width: 1000px;
+}
+
+p{
+    text-indent: 2em; /*首行缩进: 5em, -5em, 10%*/
+}
+
+/*px像素, em字符(自动适应字体), %百分比*/
+
+#p1{
+    text-align: center; /*文本对齐: center, left, right, justify(填充)*/
+
+}
+
+#p2{
+    color: #0B346E;
+    line-height: 5em;
+    text-align: justify; /*没生效?*/
+    word-spacing: 10px; /*字间距. default:0. */
+    letter-spacing: 5px;
+}
+
+#p3{
+    text-transform: uppercase; /*none, uppercase, lowercase, capitalize(每个首字母大写)*/
+}
+
+#p4{
+    text-decoration: underline; /*none, underline, overline, line-through, blink*/
+    font: italic bold 20px 'times';
+    /*font-style, font-weight, font-size, font-family*/
+    /*font-family: 'times'黑体, 手写体, 用这个. 'serif'宋体, 印刷体*/
+    /*font-weight: normal, bold, 100-900*/
+}
+
+#p5{
+    white-space: pre; /*normal, pre, nowrap, preline, pre-wrap. -->https://www.w3school.com.cn/css/css_text.asp*/
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {color:#33A6B8;}
+a:visited {color:#6A4C9C;}
+a:hover {
+    font-size:1.5em;
+    color:#F75C2F;
+    }
+a:active {color:#0B346E;}
+
+#a1 {
+    display: block;
+    width: 15em;
+    text-align: center;
+    color: #1E88A8;
+    background-color: #81C7D4;
+}

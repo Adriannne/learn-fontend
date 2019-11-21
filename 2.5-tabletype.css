@@ -1,0 +1,22 @@
+table, th, td{
+    border: 1px solid #66BAB7;
+    border-collapse: collapse; /*折叠为单一边框*/
+    width: 50%;
+    height: 3em;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 1em;
+    border-collapse: separate;
+    border-spacing: 10px 50px;
+    caption-side: bottom;
+    empty-cells: show; /*show, hide*/
+}
+
+th{
+    background-color: #66BAB7;
+    font: bold;
+}
+
+td.spacing{
+
+}
